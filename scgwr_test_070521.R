@@ -1,4 +1,5 @@
 # Last revised 07/05/2021
+if (!require(pacman)) {install.packages('pacman')}
 library(pacman)
 p_load(tidyverse, scgwr, sf)
 
